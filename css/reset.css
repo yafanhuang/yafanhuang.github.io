@@ -1,0 +1,84 @@
+@charset "utf-8";
+html,body,div,span,applet,object,iframe,caption,del,dfn, em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote, pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend {
+vertical-align:baseline;font-size:100%;outline:0;padding:0;margin:0;border:0;}
+ol,ul {list-style:none;}
+img {vertical-align:bottom;display:block;}
+table,tbody,tfoot,thead,tr,th,td {border-collapse:collapse;border-spacing:0;padding:0;margin:0;vertical-align:baseline;font-size:100%;outline:0;}
+blockquote:before,blockquote:after,q:before,q:after {content:"";}
+blockquote,q {quotes:"" "";}
+:focus {outline: none;}
+.clear {width:100%;clear:both;line-height:0;height:0;overflow:hidden;font-size: 1px;}
+body{font:normal 14px/20px;}
+input,select,textarea{padding:0;margin:0;vertical-align:middle;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+.left {float:left;}
+.right {float:right;}
+.alt0 {position:absolute;left:0;top:0;}
+.wh100 {width:100%;height:100%;}
+.w100 {width:100%;}
+.aBody,.sh,.fxSlide {overflow:hidden;}
+.aBody,.aItem,.fxSlide,.aEach {position:relative;width:100%;}
+.aEach {top:0;}
+.wrapIn {width:110%;overflow:hidden;}
+.hide {display:none;}
+.vm {vertical-align:middle;}
+.tc {text-align:center;}
+.ofh {width:100%;overflow:hidden;}
+.wc1 {width:990px;margin:0 auto;}
+.BG {
+  display: none;
+  z-index: 70;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+}
+.dot {position:absolute;left:50%;top:50%;}
+.DOT {display:none;z-index:75;}
+.nc {cursor:default;}
+.fxReady {visibility: hidden;}
+
+body, html{
+-webkit-text-size-adjust:none;height: 100%;}
+* {box-sizing: border-box;}
+
+.preloader {
+  position:absolute;
+  z-index:-1;
+  left:0;
+  top:0;
+  width:1px;
+  height:0px;
+  overflow:hidden;
+}
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background:white url(../images/loading-1.gif) center center no-repeat;
+}
+.yt-box {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+}
+.yt-box iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
