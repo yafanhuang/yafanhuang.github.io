@@ -6,7 +6,7 @@ html,body {
   height: 100%;
 }
 body {
-	font-family: 'Noto Sans TC', 'Roboto';
+  font-family: 'Noto Sans TC', 'Roboto';
   background-color: #fff;
   letter-spacing: 0.05em;
   overflow-x: hidden;
@@ -858,7 +858,7 @@ footer p {
   }
   .img-desciption {
     width: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .project-story .bold {
     margin-top: 4vw;
