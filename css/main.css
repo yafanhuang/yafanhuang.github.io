@@ -40,10 +40,12 @@ a {
 a:hover {
   text-decoration: none;
 }
-.logo-pc {
+.logo-pc,
+.pc {
   display: block;
 }
-.logo-m {
+.logo-m,
+.m {
   display: none;
 }
 .logo-pc:hover {
@@ -678,10 +680,12 @@ footer p {
   header {
     padding: 16px 32px;
   }
-  .logo-pc {
+  .logo-pc,
+  .pc {
     display: none;
   }
-  .logo-m {
+  .logo-m,
+  .m {
     display: block;
   }
   .introduction {
