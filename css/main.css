@@ -1,12 +1,12 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400;500&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+
 
 html,body {
   height: 100%;
 }
 body {
-	font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans TC', 'Roboto';
   background-color: #fff;
   letter-spacing: 0.05em;
   overflow-x: hidden;
@@ -87,7 +87,7 @@ section {
   width: 100%;
 }
 .introduction {
-  height: 100vh;
+  padding: 100px 0;
   display: flex;
   align-items: center;
   background-color: #F8F6F5;
@@ -106,7 +106,7 @@ section {
 .selfintroduction h1 {
   font-size: 62px;
   line-height: 120%;
-  font-family: 'Shrikhand';
+  font-family: 'Fugaz One';
 }
 .selfportrait {
   width: 40%;
@@ -234,7 +234,6 @@ hr.solid {
   flex-direction: row;
   flex-wrap: wrap;
   /*gap: 4%;*/
-  
 }
 .category-item {
   width: 25%;
@@ -419,7 +418,7 @@ ol li {
 .highlight {
   font-size: 50px;
   color:#527AEB;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:'Roboto';
   font-weight: 600;
 }
 .experience {
@@ -450,18 +449,23 @@ ol li {
 }
 .project-about a {
   color: #C7C1BC;
-  display: block;
-  padding-top: 3%;
+  display: inline-block;
+  padding: 3% 0;
 }
 .project-about a:hover {
   color: #534F4B;
+  fill: #534F4B;
 }
 .video {
   width: 50%;
   padding: 10px;
   margin: 0 25%;
 }
-
+.arrowtopright {
+  width: 16px;
+  height: 16px;
+  fill: #C7C1BC;
+}
 
 
 
@@ -517,7 +521,7 @@ footer p {
 }
 .about h2 {
   margin-bottom: 24px;
-  font-family: 'Shrikhand';
+  font-family: 'Fugaz One';
 }
 .about-info p {
   margin-bottom: 16px;
@@ -658,6 +662,15 @@ footer p {
 
 /* Medium */
 @media screen and (max-width: 768px) {
+  .main {
+    border-left: 0;
+  }
+  .rounder {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    z-index: 9;
+  }
   .container {
     width: 90%;
     margin: 0 5%;
@@ -670,14 +683,13 @@ footer p {
   }
   .logo-m {
     display: block;
-    margin-top: -7px;
   }
   .introduction {
-    padding: 12vw 0;
+    padding: 12vw 0 15vw;
   }
   .works,
   .project-story {
-    padding: 12vw 0 0 ;
+    padding: 15vw 0 0 ;
   }
   .introduction > .container {
     display: flex;
@@ -688,15 +700,21 @@ footer p {
     font-size: 7vw;
   }
   h2 {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 700;
   }
   h3 {
-    font-size: 4.5vw;
+    font-size: 5vw;
     margin-bottom: 1vw;
   }
   p {
-    font-size: 3.5vw;
+    font-size: 4vw;
+  }
+  a {
+    font-size: 4vw;
+  }
+  nav a {
+    font-size: 16px;
   }
   .selfintroduction {
     width: 100%;
@@ -708,7 +726,7 @@ footer p {
     line-height: 120%;
   }
   button {
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 1.5vw 3vw;
     border: 0.4vw solid #534F4B;
     border-radius: 10vw;
@@ -726,6 +744,19 @@ footer p {
   }
 
   /**/
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6,
+  .project7,
+  .project8,
+  .project9,
+  .project10,
+  .project11 {
+    padding-top: 10vw;
+  }
 
   .project {
     display: flex;
@@ -747,7 +778,7 @@ footer p {
   }
   .duration,
   .small {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #908989;
   }
   .tag {
@@ -766,6 +797,9 @@ footer p {
   }
   .category-item img {
     margin-bottom: 2vw;
+  }
+  .category-content {
+    gap: 4%;
   }
 
 
@@ -801,7 +835,7 @@ footer p {
     margin-bottom: 9vw;
   }
   ol li {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .project-story > .container > div > ol > li::before {
     width: 4vw;
@@ -809,7 +843,7 @@ footer p {
     border-radius: 100%;
     margin-right: 4px;
     font-size: 3vw;
-    line-height: 130%;
+    line-height: 120%;
   }
   .compare {
     display: flex;
@@ -896,6 +930,8 @@ footer p {
     width: 25%;
     padding: 4%;
   }
+  .tool-item p {
+    font-size: 3vw;}
 
 
 
@@ -932,7 +968,7 @@ footer p {
   }
   .experience-item .head div:last-of-type p,
   .education-item .head div:last-of-type p {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #777;
     margin-bottom: 4vw;
 
@@ -940,8 +976,8 @@ footer p {
   .description > ol > li {
     list-style-type: square;
     list-style-position: inside;
-    font-size: 3.5vw;
-    margin: 0 0;
+    font-size: 4vw;
+    margin: 0 0 2vw;
     color: #777;
   }
   

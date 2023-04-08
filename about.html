@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LYK9Q8MMZ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-3LYK9Q8MMZ');
+		</script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Ripple Huang Portfolio</title>
         <meta property="og:title" content="Ripple Huang Portfolio"/>
 		<meta property="og:description" content="Hello，我是Ripple，在數位設計的領域有將近 10 年的經驗，擅長 UI/UX、網頁設計、動態設計。"/>
-		<meta property="og:image" content="https://ripple90098.github.io/ripple_portfolio/images/cover.jpg" />
+		<meta property="og:image" content="https://yafanhuang.github.io/images/cover.jpg" />
         <!-- Lottie -->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <!-- CSS -->
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/animate.css">
         <!-- JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
@@ -19,12 +29,12 @@
         <header>
 			<a href="index.html" target="_self">
 				<img src="images/logo.svg" width="121" height="23" class="logo-pc">
-				<img src="images/logo-m.svg" width="43.64" height="30" class="logo-m">
+				<img src="images/logo-m.svg" width="18" height="23" class="logo-m">
 			</a>
 			<nav>
 				<a href="index.html" target="_self">Work</a>
 				<a href="javascript:void(0);" class="selected">About</a>
-				<a href="https://drive.google.com/file/d/1X_Kj9UZCu7xG0NBJVbHmkwQ5pLGP8rTa/view?usp=share_link" target="_blank">Resume</a>
+				<a href="https://drive.google.com/file/d/1okyh73A7Tor3BEr6F2T_VlsMueN30rf4/view?usp=share_link" target="_blank">Resume</a>
 			</nav>
 		</header>
 		<!-- /header -->
@@ -128,14 +138,16 @@
                                     </div>
                                     <div class="description">
                                         <ol>
-                                            <li>SaaS 平台的介面設計、優化使用者體驗</li>
-                                            <li>發想並製作新的行動廣告版位</li>
-                                            <li>影片剪輯</li>
-                                            <li>廣告版位動畫製作</li>
-                                            <li>Instagram 濾鏡視覺製作</li>
-                                            <li>Banner 設計與 Resize</li>
-                                            <li>RWD 活動網站視覺設計與切版</li>
-                                            <li>跨部門支援</li>
+                                            <li>重新設計公司的主力廣告後台，簡化流程、優化 UI/UX，協助同仁提升 50% 以上的工作效率。</li>
+                                            <li>導入並設計全面的 Design System：統一設計原則、建立元件庫、優化 UI/UX，以方便迭代。</li>
+                                            <li>協助設計團隊導入 Figma，建立設計知識庫，提升與工程師的協作效率。</li>
+                                            <li>優化產品開發流程：導入使用者訪談、易用性測試等 UX 方法。</li>
+                                            <li>獨立完成 RWD 活動網站（視覺設計及前端切版）。</li>
+                                            <li>從概念發想到產出實作規格，設計全新的行動廣告版位。</li>
+                                            <li>針對業界各項廣告獎項徵稿，協助公司整理年度專案，並獨立剪輯投稿影片。</li>
+                                            <li>負責公司客戶 Campaign 視覺設計。</li>
+                                            <li>跨部門協作：優化廣告投放素材、Sales Kit 美化、EDM、Roadshow 展示影片。</li>
+                                            <li>提案並協助公司邀請業界講師來公司帶 UX Workshop 內訓。</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -152,10 +164,10 @@
                                     </div>
                                     <div class="description">
                                         <ol>
-                                            <li>品牌形象設計</li>
-                                            <li>每個月活動的宣傳與周邊設計</li>
-                                            <li>擔任設計組 Leader，掌握每個月的活動需求，並分派給組員</li>
-                                            <li>活動影片剪輯</li>
+                                            <li>整體形象設計，包含 Logo、 T-shirt、活動海報、名牌⋯⋯等等。</li>
+                                            <li>擔任設計組 Leader，掌握每月活動需求，並分派給組員。</li>
+                                            <li>協助 Facebook 粉專文案製圖，每篇發文觸及率顯著提高 50% （1000人 -> 1500人 ）。</li>
+                                            <li>活動影片剪輯。</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -176,7 +188,6 @@
                                             <li>製作產品操作與宣傳的影片</li>
                                             <li>RWD 網頁設計與切版</li>
                                             <li>協助發想專案企劃</li>
-                                            <li>撰寫與管理部落格</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -233,5 +244,9 @@
 		<script>
 			$("[id*='Btn']").stop(true).on('click', function (e) {e.preventDefault();$(this).scrolld();})
 		</script>
+         <script src="js/wow.min.js"></script>
+         <script>
+         new WOW().init();
+         </script>
     </body>
 </html>
