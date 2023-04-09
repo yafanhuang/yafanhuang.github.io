@@ -286,6 +286,11 @@ hr.solid {
 .project-introduction {
   padding: 0 0 100px;
 }
+.project-introduction h3 {
+  display: block;
+  text-align: center;
+  margin: 2% 0 1%;
+}
 .project-infogroup {
   display: flex;
   flex-direction: row;
@@ -814,6 +819,11 @@ footer p {
   }
   .project-introduction {
     padding: 0 0 10vw;
+  }
+  .project-introduction h3 {
+    display: block;
+    text-align: center;
+    margin: 3vw 0 2vw;
   }
   .project-infogroup {
     display: flex;
