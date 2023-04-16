@@ -387,7 +387,8 @@ ol li {
   width: 33.33%;
 }
 .borderimg {
-  border: 1px solid #DBDBDB;
+  /*border: 1px solid #DBDBDB;*/
+  box-shadow: 0 0 20px #E7E8ED;
 }
 .img-desciption {
   width: 100%;
