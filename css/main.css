@@ -383,6 +383,9 @@ ol li {
 .compare-item {
   width: 50%;
 }
+.ds .compare-item {
+  width: 33.33%;
+}
 .borderimg {
   border: 1px solid #DBDBDB;
 }
@@ -864,7 +867,8 @@ footer p {
     flex-direction: column;
     gap: 0;
   }
-  .compare-item {
+  .compare-item,
+  .ds .compare-item {
     width: 100%;
   }
   .compare div {
