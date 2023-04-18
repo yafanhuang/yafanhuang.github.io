@@ -1,6 +1,6 @@
 
 $(function (){
-    for(let work=0;work<=11;work++){
+    for(let work=0;work<=13;work++){
         $("#project"+work).click(function(){
             $(".index").hide();
             $(".project"+work).show();
