@@ -274,7 +274,9 @@ hr.solid {
 .project8,
 .project9,
 .project10,
-.project11 {
+.project11,
+.project12,
+.project13 {
   width: 100%;
   display: none;
   background-color: #F8F6F5;
@@ -768,7 +770,9 @@ footer p {
   .project8,
   .project9,
   .project10,
-  .project11 {
+  .project11,
+  .project12,
+  .project13 {
     padding-top: 10vw;
   }
 
