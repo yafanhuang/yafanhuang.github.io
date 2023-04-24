@@ -469,6 +469,8 @@ ol li {
 }
 .project-about a:hover {
   color: #534F4B;
+}
+.project-about a:hover path {
   fill: #534F4B;
 }
 .video {
