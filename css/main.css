@@ -5,8 +5,10 @@
 html,body {
   height: 100%;
 }
-body {
+* {
   font-family: 'Noto Sans TC', 'Roboto';
+}
+body {
   background-color: #fff;
   letter-spacing: 0.05em;
   overflow-x: hidden;
@@ -136,8 +138,10 @@ p {
 .selfintroduction > h1 {
   margin-bottom: 16px;
 }
+input, textarea, button {
+  font-family: inherit;
+}
 button {
-  font-family: 'Noto Sans TC', 'Roboto';
   color: #534F4B;
   font-size: 16px;
   padding: 8px 12px;
@@ -158,6 +162,7 @@ button:hover {
   width: 24px;
   height: 24px;
 }
+
 
 /**/
 
